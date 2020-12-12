@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  color: #272c55;
+  background: #F16052; 
+  margin: 300px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  padding-left: 425px;
+  font-size: 36px;
+  
+}
+
+
+.clock {
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+  box-shadow:  30px 30px 60px #c34e42, 
+  -30px -30px 60px #ff7262;
+  margin: auto;
+  position: absolute;
+  top: 150px; left: 150px; bottom: 150px; right: 150px,
+}
+
+.twelve {
+  position: absolute;
+  width: 6px;
+  height: 25px;
+  border-radius: 90%;
+  background: #ffbeb8; 
+  box-shadow: 2px 2px 3px  #c34e42, 
+  -2px -2px 3px #ff7262;
+  left: 0;
+  top: 0px;
+  right: 0;
+  margin: 15px auto;
+}
+
+.three {
+  position: absolute;
+  width: 25px;
+  height: 6px;
+  border-radius: 90%;
+  background: #ffbeb8;
+  box-shadow: 2px 2px 3px  #c34e42, 
+  -2px -2px 3px #ff7262;
+  left: 450px;
+  top: 250px;
+  right: 0;
+  margin: 0 auto;
+}
+
+.six {
+  position: absolute;
+  width: 6px;
+  height: 25px;
+  border-radius: 90%;
+  background: #ffbeb8;
+  box-shadow: 2px 2px 3px  #c34e42, 
+  -2px -2px 3px #ff7262;
+  left: 0;
+  top: 45opx;
+  right: 0;
+  margin: 460px auto;
+}
+
+.nine {
+  position: absolute;
+  width: 25px;
+  height: 6px;
+  border-radius: 90%;
+  background: #ffbeb8;
+  box-shadow: 2px 2px 3px  #c34e42, 
+  -2px -2px 3px #ff7262;
+  left: 0;
+  top: 250px;
+  right: 450px;
+  margin: 0 auto;
+}
+
+.center {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 0; right: 0; bottom: 0; top: 0;
+  margin: auto;
+  background: #BF2F23;
+  border-radius: 100%;
+}
+
+#seconds {
+position: absolute;
+height: 160px;
+width: 2px;
+left: 0; right: 0; bottom: 160px; top: 0px;
+margin: auto;
+background: #000;
+-webkit-transform-origin: bottom;
+background: #ff4136
+}
+
+#minutes {
+  position: absolute;
+  height: 200px;
+  width: 2px;
+  left: 0;
+  right: 0;
+  bottom: 200px;
+  top: 0px;
+  margin: auto;
+  background: #ffdad6;
+  -webkit-transform-origin: bottom;
+}
+
+#hours {
+  position: absolute;
+  height: 80px;
+  width: 4px;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  top: 0px;
+  margin: auto;
+  background: #ffdad6;
+  -webkit-transform-origin: bottom;
+}
+
